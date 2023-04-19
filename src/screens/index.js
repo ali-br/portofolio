@@ -10,7 +10,7 @@ import MenuIcon from '@material-ui/icons/Menu';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import { Button, CssBaseline } from '@material-ui/core';
-import ProfileImage from '../assets/images/profile.jpg';
+import ProfileImage from '../assets/images/about.jpg';
 import { getTranslates, changeLang } from '../localization/index';
 import Home from './home';
 import About from "./about";
@@ -96,7 +96,7 @@ function ResponsiveDrawer(props) {
     const { window } = props;
     const classes = useStyles();
     const translate = getTranslates();
-    const [page, setPage] = useState(2)
+    const [page, setPage] = useState(1)
     const [mobileOpen, setMobileOpen] = useState(false);
     const handleDrawerToggle = () => {
         setMobileOpen(!mobileOpen);
