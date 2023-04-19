@@ -91,8 +91,8 @@ export default function Contact() {
                     <Grid item xs={12} md={6} className={classes.contactDetail} >
                         <ContactButton icon={<CallOutlinedIcon className={classes.iconStyle} />}
                         title={translate.phone}
-                        text1="+021-4235-3242"
-                        text2="+021-4235-3242"
+                        text1="+021-4999-9999"
+                        text2="+021-4999-9999"
                         />
                         <ContactButton icon={<EmailOutlinedIcon className={classes.iconStyle} />}
                            title={translate.email}
